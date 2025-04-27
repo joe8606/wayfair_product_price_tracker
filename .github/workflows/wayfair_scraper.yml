@@ -1,0 +1,50 @@
+name: Daily Wayfair Data Scraping
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run at 00:00 UTC every day 
+  workflow_dispatch:  # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  scrape-and-process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || echo "⚠️ requirements.txt not found, skipping..."
+          pip install playwright beautifulsoup4 requests
+
+      - name: Install Playwright browsers
+        run: |
+          playwright install
+
+      - name: Run test_wayfair_scraper.py (Playwright-based scraper)
+        run: |
+          python src/test_wayfair_scraper.py
+
+      - name: Run wayfair_scrap.py (requests + BeautifulSoup scraper)
+        run: |
+          python src/wayfair_scrap.py
+
+      - name: Run wayfair_scraper.ipynb (if it exists)
+        run: |
+          pip install nbconvert
+          jupyter nbconvert --to script src/wayfair_scraper.ipynb
+          python src/wayfair_scraper.py
+        continue-on-error: true   # Ignore errors if the notebook does not exist
+
+      - name: Upload scraped data
+        uses: actions/upload-artifact@v3
+        with:
+          name: wayfair-data-results
+          path: outputs/  # Adjust this if your outputs are in a different folder like dat/
