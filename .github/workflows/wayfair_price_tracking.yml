@@ -2,8 +2,8 @@ name: Wayfair Price Tracker
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # 每 3 小時跑一次 (UTC時間)
-  workflow_dispatch:       # 也可以手動按 "Run workflow" 執行
+    - cron: '0 */1 * * *'  
+  workflow_dispatch:       
 
 jobs:
   scrape_wayfair_prices:
@@ -26,7 +26,7 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install requests beautifulsoup4 pandas
+        pip install requests beautifulsoup4 pandas pytz
 
     - name: Run Wayfair Price Scraper
       run: |
