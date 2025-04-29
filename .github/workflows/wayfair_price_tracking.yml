@@ -1,0 +1,39 @@
+name: Wayfair Price Tracker
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # 每 3 小時跑一次 (UTC時間)
+  workflow_dispatch:       # 可以手動按 "Run workflow" 執行
+
+jobs:
+  scrape_wayfair_prices:
+    runs-on: ubuntu-latest
+
+    env:
+      OXYLAB_USERNAME: ${{ secrets.OXYLAB_USERNAME }}
+      OXYLAB_PASSWORD: ${{ secrets.OXYLAB_PASSWORD }}
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install Dependencies
+      run: |
+        pip install requests beautifulsoup4 pandas
+
+    - name: Run Wayfair Price Scraper
+      run: |
+        python src/update_price.py
+
+    - name: Commit and Push Results
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add dat/
+        git commit -m "Update wayfair prices [auto]" || echo "Nothing to commit"
+        git push
