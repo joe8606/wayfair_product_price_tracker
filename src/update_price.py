@@ -6,6 +6,7 @@ import random
 from datetime import datetime
 from pathlib import Path
 import os
+import pytz
 
 # --- Settings ---
 USERNAME = os.getenv("OXYLAB_USERNAME")
@@ -14,6 +15,7 @@ CSV_INPUT_PATH = Path("dat/wayfair_bs4_products.csv")
 OUTPUT_FOLDER = Path("dat")
 MAX_RETRIES = 3
 DELAY_BETWEEN_REQUESTS = (2, 5)
+TIMEZONE = pytz.timezone("US/Eastern")  # 使用美東時間
 
 # --- Functions ---
 def fetch_price_from_url(url):
@@ -59,7 +61,7 @@ def main():
     OUTPUT_FOLDER.mkdir(parents=True, exist_ok=True)
 
     for url in urls:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S")
         price = None
         start_time = time.time()
 
@@ -90,7 +92,7 @@ def main():
     result_df = pd.DataFrame(records)
 
     # Save output
-    output_time = datetime.now().strftime("%Y%m%d_%H%M")
+    output_time = datetime.now(TIMEZONE).strftime("%Y%m%d_%H%M")
     output_filename = f"wayfair_price_tracking_{output_time}.csv"
     output_path = OUTPUT_FOLDER / output_filename
     result_df.to_csv(output_path, index=False)
@@ -99,7 +101,7 @@ def main():
     log_filename = "wayfair_scrape_log.txt"
     log_path = OUTPUT_FOLDER / log_filename
     with log_path.open("a") as log_file:
-        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        now = datetime.now(TIMEZONE).strftime("%Y-%m-%d %H:%M:%S")
         log_file.write(f"\n[{now}] New Run\n")
         log_file.write(f"Total URLs: {len(urls)}\n")
         log_file.write(f"Successful fetches: {success_count}\n")
