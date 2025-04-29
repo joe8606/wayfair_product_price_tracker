@@ -3,7 +3,7 @@ name: Wayfair Price Tracker
 on:
   schedule:
     - cron: '0 */3 * * *'  # 每 3 小時跑一次 (UTC時間)
-  workflow_dispatch:       # 可以手動按 "Run workflow" 執行
+  workflow_dispatch:       # 也可以手動按 "Run workflow" 執行
 
 jobs:
   scrape_wayfair_prices:
@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -31,12 +33,9 @@ jobs:
         python src/update_price.py
 
     - name: Commit and Push Results
-      env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 這是你手動加的 GitHub PAT
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git remote set-url origin https://$GH_TOKEN@github.com/joe8606/data_wrangling_msds597.git
         git add dat/
         git commit -m "Update wayfair prices [auto]" || echo "Nothing to commit"
-        git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+        git push origin HEAD:main
