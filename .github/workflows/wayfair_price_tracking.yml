@@ -36,6 +36,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git remote set-url origin https://$GH_TOKEN@github.com/joe8606/data_wrangling_msds597.git
         git add dat/
         git commit -m "Update wayfair prices [auto]" || echo "Nothing to commit"
         git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
