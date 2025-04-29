@@ -31,9 +31,11 @@ jobs:
         python src/update_price.py
 
     - name: Commit and Push Results
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # 這是你手動加的 GitHub PAT
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add dat/
         git commit -m "Update wayfair prices [auto]" || echo "Nothing to commit"
-        git push
+        git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
