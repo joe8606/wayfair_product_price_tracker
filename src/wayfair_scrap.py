@@ -72,7 +72,7 @@ def get_products(query="blender", max_pages=2):
     return all_products
 
 # Save the scraped data to a CSV file inside /dat
-def save_products(products, filename=r"C:\rutgers\Data Wrangling\data_wrangling_msds597\dat\wayfair_bs4_products.csv"):
+def save_products(products, filename=r"C:\rutgers\Data Wrangling\data_wrangling_msds597\dat\wayfair_{}_bs4_products.csv".format(query)):
     folder = os.path.dirname(filename)
     if folder:
         os.makedirs(folder, exist_ok=True)
@@ -85,7 +85,7 @@ def save_products(products, filename=r"C:\rutgers\Data Wrangling\data_wrangling_
 
 # Main execution
 if __name__ == "__main__":
-    query = "desk"  # Change to any keyword you want
+    query = "sofa"  # Change to any keyword you want
     pages = 200         # Change number of pages to scrape
     products = get_products(query, pages)
     save_products(products)
