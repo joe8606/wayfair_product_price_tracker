@@ -366,3 +366,11 @@ Failed fetches: 3
 Success rate: 70.00%
 Average time per URL: 64.13 seconds
 ========================================
+
+[2025-05-01 14:25:04] New Run
+Total URLs: 10
+Successful fetches: 5
+Failed fetches: 5
+Success rate: 50.00%
+Average time per URL: 68.29 seconds
+========================================
