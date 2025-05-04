@@ -198,3 +198,707 @@ Failed fetches: 3
 Success rate: 70.00%
 Average time per URL: 77.60 seconds
 ========================================
+
+[2025-04-30 16:22:02] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 66.13 seconds
+========================================
+
+[2025-04-30 17:22:17] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 79.72 seconds
+========================================
+
+[2025-04-30 18:21:26] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 72.38 seconds
+========================================
+
+[2025-04-30 19:19:26] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 58.74 seconds
+========================================
+
+[2025-04-30 21:07:35] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 78.51 seconds
+========================================
+
+[2025-04-30 22:56:17] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 86.15 seconds
+========================================
+
+[2025-04-30 23:52:44] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 75.99 seconds
+========================================
+
+[2025-05-01 00:29:59] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 84.22 seconds
+========================================
+
+[2025-05-01 01:21:27] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 61.85 seconds
+========================================
+
+[2025-05-01 02:29:49] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 89.38 seconds
+========================================
+
+[2025-05-01 03:26:15] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 93.81 seconds
+========================================
+
+[2025-05-01 04:27:12] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 80.11 seconds
+========================================
+
+[2025-05-01 05:27:02] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 97.91 seconds
+========================================
+
+[2025-05-01 06:24:24] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 83.70 seconds
+========================================
+
+[2025-05-01 07:23:52] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 92.32 seconds
+========================================
+
+[2025-05-01 08:29:01] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 65.67 seconds
+========================================
+
+[2025-05-01 09:37:13] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 101.15 seconds
+========================================
+
+[2025-05-01 10:26:18] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 100.63 seconds
+========================================
+
+[2025-05-01 11:17:52] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 49.12 seconds
+========================================
+
+[2025-05-01 12:24:08] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 69.42 seconds
+========================================
+
+[2025-05-01 13:19:43] New Run
+Total URLs: 10
+Successful fetches: 7
+Failed fetches: 3
+Success rate: 70.00%
+Average time per URL: 64.13 seconds
+========================================
+
+[2025-05-01 14:25:04] New Run
+Total URLs: 10
+Successful fetches: 5
+Failed fetches: 5
+Success rate: 50.00%
+Average time per URL: 68.29 seconds
+========================================
+
+[2025-05-01 15:09:51] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.32 seconds
+========================================
+
+[2025-05-01 16:12:40] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.11 seconds
+========================================
+
+[2025-05-01 17:11:32] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.40 seconds
+========================================
+
+[2025-05-01 18:11:34] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.55 seconds
+========================================
+
+[2025-05-01 19:11:54] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.57 seconds
+========================================
+
+[2025-05-01 20:50:54] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.56 seconds
+========================================
+
+[2025-05-01 22:27:52] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.55 seconds
+========================================
+
+[2025-05-01 23:36:30] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.14 seconds
+========================================
+
+[2025-05-02 00:14:37] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.05 seconds
+========================================
+
+[2025-05-02 01:13:01] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.58 seconds
+========================================
+
+[2025-05-02 02:16:18] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 10.84 seconds
+========================================
+
+[2025-05-02 03:12:22] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.87 seconds
+========================================
+
+[2025-05-02 04:15:45] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.97 seconds
+========================================
+
+[2025-05-02 05:12:30] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.91 seconds
+========================================
+
+[2025-05-02 06:13:31] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.67 seconds
+========================================
+
+[2025-05-02 07:10:45] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.09 seconds
+========================================
+
+[2025-05-02 08:20:22] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.08 seconds
+========================================
+
+[2025-05-02 09:23:12] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.76 seconds
+========================================
+
+[2025-05-02 10:11:42] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.46 seconds
+========================================
+
+[2025-05-02 11:12:17] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.69 seconds
+========================================
+
+[2025-05-02 12:13:58] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.24 seconds
+========================================
+
+[2025-05-02 13:10:55] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.93 seconds
+========================================
+
+[2025-05-02 14:15:34] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.96 seconds
+========================================
+
+[2025-05-02 15:10:03] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.15 seconds
+========================================
+
+[2025-05-02 16:13:26] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.45 seconds
+========================================
+
+[2025-05-02 17:10:41] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.43 seconds
+========================================
+
+[2025-05-02 18:11:36] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.09 seconds
+========================================
+
+[2025-05-02 19:11:40] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.06 seconds
+========================================
+
+[2025-05-02 20:49:05] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.11 seconds
+========================================
+
+[2025-05-02 22:24:14] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.77 seconds
+========================================
+
+[2025-05-02 23:32:03] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.15 seconds
+========================================
+
+[2025-05-03 00:13:39] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.31 seconds
+========================================
+
+[2025-05-03 01:11:48] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.08 seconds
+========================================
+
+[2025-05-03 02:14:48] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.03 seconds
+========================================
+
+[2025-05-03 03:11:16] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.32 seconds
+========================================
+
+[2025-05-03 04:13:57] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.27 seconds
+========================================
+
+[2025-05-03 05:11:27] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.07 seconds
+========================================
+
+[2025-05-03 06:11:23] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.24 seconds
+========================================
+
+[2025-05-03 07:09:39] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.76 seconds
+========================================
+
+[2025-05-03 08:18:14] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.44 seconds
+========================================
+
+[2025-05-03 09:19:36] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.56 seconds
+========================================
+
+[2025-05-03 10:10:30] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.83 seconds
+========================================
+
+[2025-05-03 11:10:34] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.47 seconds
+========================================
+
+[2025-05-03 12:12:30] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 10.93 seconds
+========================================
+
+[2025-05-03 13:09:51] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.83 seconds
+========================================
+
+[2025-05-03 14:14:14] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.57 seconds
+========================================
+
+[2025-05-03 15:09:04] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.76 seconds
+========================================
+
+[2025-05-03 16:12:07] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.47 seconds
+========================================
+
+[2025-05-03 17:10:29] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.29 seconds
+========================================
+
+[2025-05-03 18:10:46] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.00 seconds
+========================================
+
+[2025-05-03 19:11:13] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.02 seconds
+========================================
+
+[2025-05-03 20:56:23] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.57 seconds
+========================================
+
+[2025-05-03 22:44:00] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.17 seconds
+========================================
+
+[2025-05-03 23:40:39] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.10 seconds
+========================================
+
+[2025-05-04 00:16:00] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.56 seconds
+========================================
+
+[2025-05-04 01:12:15] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.33 seconds
+========================================
+
+[2025-05-04 02:15:50] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.80 seconds
+========================================
+
+[2025-05-04 03:10:49] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 10.77 seconds
+========================================
+
+[2025-05-04 04:14:02] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.53 seconds
+========================================
+
+[2025-05-04 05:11:56] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.01 seconds
+========================================
+
+[2025-05-04 06:11:28] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.06 seconds
+========================================
+
+[2025-05-04 07:09:42] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.21 seconds
+========================================
+
+[2025-05-04 08:18:30] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 10.71 seconds
+========================================
+
+[2025-05-04 09:19:46] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.32 seconds
+========================================
+
+[2025-05-04 10:10:29] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.32 seconds
+========================================
+
+[2025-05-04 11:10:44] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.30 seconds
+========================================
