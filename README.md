@@ -2,6 +2,12 @@
 
 Automated price tracking system for Wayfair products using web scraping and GitHub Actions.
 
+## Demo
+
+**Live Demo**: [https://joe8606.github.io/wayfair_product_price_tracker/](https://joe8606.github.io/wayfair_product_price_tracker/)
+
+The demo showcases data analysis and visualization of the scraped Wayfair product data, including price distributions, star ratings, and historical price tracking.
+
 ## Overview
 
 This project automatically tracks price changes for Wayfair products by scraping product listings and monitoring price updates over time. It uses GitHub Actions for automated execution and stores historical data in CSV format.
@@ -14,6 +20,7 @@ This project automatically tracks price changes for Wayfair products by scraping
 - **Multiple Methods**: Both Playwright and requests-based scrapers
 - **Error Handling**: Retry mechanisms and logging
 - **Git Integration**: Automatic commit and push of results
+- **Data Visualization**: Interactive analysis dashboard
 
 ## How It Works
 
