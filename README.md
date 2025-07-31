@@ -8,6 +8,12 @@ Automated price tracking system for Wayfair products using web scraping and GitH
 
 The demo showcases data analysis and visualization of the scraped Wayfair product data, including price distributions, star ratings, and historical price tracking.
 
+## Presentation
+
+**Project Slides**: `data wrangling presentation group 1.pdf`
+
+This presentation provides a comprehensive overview of the project methodology, data collection process, analysis techniques, and key findings from the Wayfair price tracking system.
+
 ## Overview
 
 This project automatically tracks price changes for Wayfair products by scraping product listings and monitoring price updates over time. It uses GitHub Actions for automated execution and stores historical data in CSV format.
@@ -63,7 +69,9 @@ This project automatically tracks price changes for Wayfair products by scraping
 ├── dat/                              # Data storage
 │   ├── wayfair_bs4_products.csv      # Product listings
 │   └── wayfair_price_tracking_*.csv  # Price data
-└── .github/workflows/                # GitHub Actions
+├── .github/workflows/                # GitHub Actions
+├── data wrangling presentation group 1.pdf  # Project presentation
+└── index.html                        # Demo website
 ```
 
 ## Data Output
