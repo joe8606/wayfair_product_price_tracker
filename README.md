@@ -10,7 +10,7 @@ The demo showcases data analysis and visualization of the scraped Wayfair produc
 
 ## Presentation
 
-**Project Slides**: `data wrangling presentation group 1.pdf`
+**Project Slides**: [View Slide](https://github.com/joe8606/wayfair_product_price_tracker/blob/main/data%20wrangling%20presentation%20group%201.pdf)
 
 This presentation provides a comprehensive overview of the project methodology, data collection process, analysis techniques, and key findings from the Wayfair price tracking system.
 
