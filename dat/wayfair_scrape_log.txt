@@ -20798,3 +20798,11 @@ Failed fetches: 10
 Success rate: 0.00%
 Average time per URL: 12.10 seconds
 ========================================
+
+[2025-08-21 10:12:56] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 13.03 seconds
+========================================
