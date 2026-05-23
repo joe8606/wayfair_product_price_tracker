@@ -66502,3 +66502,11 @@ Failed fetches: 10
 Success rate: 0.00%
 Average time per URL: 12.35 seconds
 ========================================
+
+[2026-05-23 08:58:17] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 11.98 seconds
+========================================
