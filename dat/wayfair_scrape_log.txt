@@ -71414,3 +71414,11 @@ Failed fetches: 10
 Success rate: 0.00%
 Average time per URL: 10.60 seconds
 ========================================
+
+[2026-07-22 08:21:52] New Run
+Total URLs: 10
+Successful fetches: 0
+Failed fetches: 10
+Success rate: 0.00%
+Average time per URL: 12.36 seconds
+========================================
